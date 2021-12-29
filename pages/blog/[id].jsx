@@ -5,7 +5,7 @@ function misPosts({data}) {
     return (
         <Layout title="Mis Posts | mi sitio web" description="Descripcion de mi sitio web mis posts">
         <h1>{data.id} - {data.title}</h1>
-        <p>{data.body}</p>
+        <span>{data.body}</span>
     </Layout>
     )
 }
