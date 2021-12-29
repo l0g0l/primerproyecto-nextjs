@@ -1,0 +1,18 @@
+
+/*no se pueden utilizar como selector las propias etiquetas de HTML, solo se pueden usar clases o id. Pra cambiar las etiquetas de forma global hay que hacerlo en el archivo de globals.css*/
+
+.container {
+    max-width: 36rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .backToHome {
+    margin: 3rem 0 0;
+  }
